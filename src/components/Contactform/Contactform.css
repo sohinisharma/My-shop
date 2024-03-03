@@ -1,21 +1,59 @@
-.form-container{
-    justify-content: center;
-}
-
-.submit-btn{
+.form-container {
+    border: 2px inset #37B5B6;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .heading {
+    color: #37B5B6;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -10px;
+  }
+  
+  .submit-btn {
     border-radius: 7px;
     color: #fff;
     background-color: #37B5B6;
     height: 35px;
-    width: 80px;
-    border-style: none;
+    width: 40%;
+    border: none;
     font-weight: bolder;
     font-size: 16px;
-}
-
-.submit-btn:hover{
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .submit-btn:hover {
     background-color: #fff;
     color: #37B5B6;
-    border: 2px solid #37B5B6;   
-}
+    border: 2px solid #37B5B6;
+  }
+  
+  input {
+    margin-bottom: 20px;
+    height: 30px;
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid #37B5B6;
+    padding: 5px;
+  }
+  
+  .msg {
+    border-radius: 7px;
+    border: 1px solid #37B5B6;
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+  }
 
+  @media(max-width:800px){
+    .form-container {
+        max-width: 250px;
+      }
+}
+  
