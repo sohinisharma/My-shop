@@ -1,7 +1,20 @@
 footer{
   background-color: #272829;
-  color: white;
+  color: #fff;
   padding: 10px;
-  text-align: center;
-  margin-top: 20px;
+  margin-top: -05px;
 }
+
+h3{
+  text-align: center;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.list{
+  list-style: none;
+}
+

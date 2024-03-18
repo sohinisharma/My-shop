@@ -3,9 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Navbar from './components/Navbar/Navbar'
 import Cards from './components/Cards/Cards'
 import Home from './components/Home/Home'
-import About from './components/Home/About'
 import Footer from './components/Footer/Footer'
 import Contactform from './components/Contactform/Contactform'
+import About from './components/About/About'
 
 
 

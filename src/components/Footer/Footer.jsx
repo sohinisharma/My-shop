@@ -3,9 +3,23 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div>
+    <div>    
       <footer>
-        <p>This is my footer page</p>
+      <h3>This is my footer</h3>
+      <div className='footer-container'>
+      <div className='list'>
+      <li>Website Terms</li>
+      <li>Consumer Care</li>
+      </div>  
+      <div className='list'>
+      <li>Careers</li>
+      <li>Privacy Policy</li>
+      </div>  
+      <div className='list'>
+      <li>Contact Us</li>
+      <li>About</li>
+      </div>
+      </div>      
       </footer>
     </div>
   )
